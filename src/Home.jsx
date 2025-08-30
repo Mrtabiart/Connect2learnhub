@@ -264,7 +264,7 @@ function Home() {
           <div className="course-card loading">
             <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Data Analysis" />
             <div className="course-content">
-              <h3>Organic Chemistry Made Easy</h3>
+              <h3>Organic Chemistry Easy</h3>
               <p>Ms. Zoha Fazeel</p>
               <div className="course-meta">
                 <span className="duration">2 months</span>
