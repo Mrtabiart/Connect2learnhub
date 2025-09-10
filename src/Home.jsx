@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import sadafimg from "./assets/sadafimg.jpg";
 import './Home.css';
 
 function Home() {
@@ -193,7 +194,7 @@ function Home() {
             <p className="team-role">Senior Academic Advisor</p>
           </div>
           <div className="team-card loading">
-            <img src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Emily Parker" />
+            <img   src={sadafimg} alt="Emily Parker" />
             <h3>Ms. Sadaf Mansoor</h3>
             <p className="team-role">Senior Financial Advisor</p>
           </div>
