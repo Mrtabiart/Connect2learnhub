@@ -23,7 +23,7 @@ function Home() {
           </div>
           
           <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
-            <a href="#about" className="nav-link" onClick={() => setIsMenuOpen(false)}>About</a>
+             <a href="/about" className="nav-link" onClick={() => setIsMenuOpen(false)}>About</a>
             <a href="#services" className="nav-link" onClick={() => setIsMenuOpen(false)}>Our Services</a>
             <a href="#team" className="nav-link" onClick={() => setIsMenuOpen(false)}>Our Team</a>
             <a href="#blog" className="nav-link" onClick={() => setIsMenuOpen(false)}>Blog</a>

@@ -65,7 +65,7 @@
 /* Navbar Styles */
 .navbar {
   padding: 1rem 7rem;
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
@@ -95,7 +95,7 @@
   font-weight: 700;
   color: #3fa9f5;
   text-decoration: none;
-  background: linear-gradient(45deg, #0e9aff, #25538f);
+   background: linear-gradient(90deg, #033058 ,  #033058);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -124,7 +124,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(90deg, #3fa9f5, #22487a);
+  background: linear-gradient(90deg, #033058 ,  #033058);
   transition: width 0.3s ease;
 }
 
@@ -133,7 +133,7 @@
 }
 
 .nav-link:hover {
-  color: #3fa9f5;
+    color:#033058;;
   transform: translateY(-2px);
 }
 
@@ -342,7 +342,7 @@
 /* Hero Section */
 .hero {
   background: url(./assets/connectherobackground.jpg);
-  height: 100vh;
+  height: 110vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -683,7 +683,7 @@ section {
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 2.5rem;
   position: relative;
   z-index: 1;
@@ -761,7 +761,7 @@ section {
 
 .courses-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
   gap: 2rem;
   position: relative;
   z-index: 1;
@@ -1208,7 +1208,7 @@ section {
   }
 
   .team-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 1.5rem;
   }
 
