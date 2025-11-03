@@ -74,8 +74,8 @@ function Home() {
         <div className="hero-content">
           <h1 className="hero-title">Unlock Academic and Personal Wellbeing with <b>CONNECT2LEARNHUB</b></h1>
           <p className="hero-subtitle">Your space for learning, growth, and well-being. From online tutoring, test preparation, short courses, and interactive webinars to psychological consultancy,
-            <br /> speech therapy, and behavior therapy, we bring everything under one roof. Our mission is simple: to make quality education and mental health support
-            <br /> accessible, affordable, and impactful for everyone. At <b>Connect 2 Learn hub</b>, we connect you with experts who help you learn, grow, and succeed.
+          speech therapy, and behavior therapy, we bring everything under one roof. Our mission is simple: to make quality education and mental health support
+           accessible, affordable, and impactful for everyone. At <b>Connect 2 Learn hub</b>, we connect you with experts who help you learn, grow, and succeed.
           </p>
           <div className="hero-buttons">
             <button className="btn-primary">Start Learning</button>
