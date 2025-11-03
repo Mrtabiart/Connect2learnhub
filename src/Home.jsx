@@ -230,12 +230,12 @@ function Home() {
         </div>
         <div className="team-grid">
           {[
-            { name: 'Mr. Abdul Sami', role: 'Chief Executive Officer (CEO)', img: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=400' },
-            { name: 'Ms. Namood-e-Sahar', role: 'Founder & Platform Administration', img: 'https://images.pexels.com/photos/3184633/pexels-photo-3184633.jpeg?auto=compress&cs=tinysrgb&w=400' },
-            { name: 'Mr. Ahmed Hasan Anis', role: 'Director Strategic Affairs', img: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400' },
-            { name: 'Ms. Fauzia Raazia', role: 'Senior Academic Advisor', img: 'https://images.pexels.com/photos/3184394/pexels-photo-3184394.jpeg?auto=compress&cs=tinysrgb&w=400' },
-            { name: 'Ms Nabiha Hasan', role: 'Marketing & Communication Manager', img: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400' },
-            { name: 'Ms. Hafiza Saba Batool', role: 'Advisor Islamic Studies', img: 'https://images.pexels.com/photos/3184302/pexels-photo-3184302.jpeg?auto=compress&cs=tinysrgb&w=400' },
+            { name: 'Mr. Abdul Sami', role: 'Chief Executive Officer (CEO)',  img: '/1.jpg' },
+            { name: 'Ms. Namood-e-Sahar', role: 'Founder & Platform Administration',  img: '/5.jpg' },
+            { name: 'Mr. Ahmed Hasan Anis', role: 'Director Strategic Affairs', img: '/2.jpg'},
+            { name: 'Ms. Fauzia Raazia', role: 'Senior Academic Advisor',  img: '/3.jpg' },
+            { name: 'Ms Nabiha Hasan', role: 'Marketing & Communication Manager',  img: '/4.jpg'},
+            { name: 'Ms. Hafiza Saba Batool', role: 'Advisor Islamic Studies',  img: '/5.jpg' },
           ].map((member, index) => (
             <div className="team-card" key={index}>
               <div className="team-image-wrapper">
