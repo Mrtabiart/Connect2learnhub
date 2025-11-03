@@ -1,424 +1,112 @@
-/* navbar custom starts from here for the mockup v3 */
-.custom-navbar {
-  /* styles here */
+/* Style to add the home page link to all pages -- Start*/
+.custom-business-name a, 
+.custom-business-name a * {
+    color: inherit !important;
 }
 
-.custom-navbar .nav-menu-ul.nav-menu-desktop {
-    column-gap: 25px;
-}
-
-@media (max-width: 678px) {
-    .navbar-row .inner {
-        flex-direction: row !important;
-        align-items: center;
-    }
-
-    .custom-navbar-col2 >.inner {
-        justify-content: right !important;
-    }
-
-    .custom-navbar-col1 >.inner {
-        justify-content: left !important;
-    }
-
-    .bg-img-border .bg {
-        width: 97% !important;
-    }
-}
-
-
-
-/* this is the end of the header custom navbar for the mockup v3 */
-
-
-
-
-
-
-
-
-.bg-img-blur .bg::before {
-    content: "" !important;
-                 /* must have content */
-    position: absolute !important;
-    inset: 0 !important;
-                    /* top:0; right:0; bottom:0; left:0; */
-    background-color: rgb(0 0 0 / 50%) !important;
- /* #2a4a3f @ 0.7 opacity */
-    pointer-events: none !important;
-        /* won't block clicks */
-}
-
-
-/* Target the last menu item button */
-.nav-menu-desktop .menu-item:last-child .menu-item-title {
-    background-color: #F77748FF;
- /* red */
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    color: #314258FF;
-            /* white text */
-    transition: background-color 0.3s ease;
-}
-
-/* Hover effect for darker red */
-.nav-menu-desktop .menu-item:last-child .menu-item-title:hover {
-    background-color: #314258FF !important;
- /* darker red */
-    color: #F77748FF !important;
-}
-
-.menu-item:not(:last-child) .menu-item-title {
-    background-color: transparent !important;
-    transition: color 0.3s ease;
-}
-/* Hover effect: change text color only */
-.menu-item:not(:last-child) .menu-item-title:hover {
-    background-color: transparent !important;
-    color: #F77748FF !important;
-}
-
-div#col-dk0WW_QKkny .vertical.inner {
-    justify-content: left !important;
-}
-
-.hero-row {
-  /* styles here */
-}
-
-/* Desktop layout: put hero buttons side by side */
-@media (min-width: 768px) {
-    .hero-column .c-button {
-        display: inline-block !important;
-        width: auto !important;
-        margin-right: 12px !important;
-        vertical-align: top !important;
-    }
-
-  /* Make sure buttons wrap properly inside the container */
-    .hero-column .vertical.inner {
-        display: block !important;
-    }
-}
-
-/* Mobile layout: full width stacked buttons */
-@media (max-width: 767px) {
-    .hero-column button {
-        width: 100% !important;
-    }
-}
-
-.hero-bg-img .bg {
-    background-position: top !important;
-}
-
-.custom-faq .hl-faq-child-heading-icon:before {
-    color: #314258FF;
-}
-
-.custom-faq .faq-contained-child {
-    border-top: none !important;
-    border-right: none !important;
-    border-left: none !important;
-}
-
-.wide-width-sections.c-section > .inner {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    max-width: 100% !important;
-}
-
-.clients-images-column .vertical.inner {
-    display: flex;
-    flex-direction: row !important;
-}
-
-.bg-img-opacity .bg::before {
-    content: "" !important;
-                 /* must have content */
-    position: absolute !important;
-    inset: 0 !important;
-                    /* top:0; right:0; bottom:0; left:0; */
-    background-color: rgba(49, 66, 88, 0.7) !important;
- /* #2a4a3f @ 0.7 opacity */
-    pointer-events: none !important;
-        /* won't block clicks */
-}
-
-.faq-bg-img-opacity .bg::before {
-    content: "" !important;
-                 /* must have content */
-    position: absolute !important;
-    inset: 0 !important;
-                    /* top:0; right:0; bottom:0; left:0; */
-    background-color: rgb(0 0 0 / 50%) !important;
- /* #2a4a3f @ 0.7 opacity */
-    pointer-events: none !important;
-        /* won't block clicks */
-}
-
-.bg-image-top-position .bg {
-    background-position: bottom;
-}
-
-.clients-images-column .vertical.inner {
-    display: flex;
-    flex-direction: row !important;
-}
-
-.clients-images-column .vertical.inner {
-    justify-content: space-between !important;
-}
-
-.video-box-border {
-    position: relative !important;
-}
-
-.video-box-border::before {
-    content: "" !important;
-    position: absolute !important;
-    top: -20px !important;
-   /* 30px above video */
-    left: -20px !important;
-  /* 30px left of video */
-    width: 100% !important;
-    height: 100% !important;
-    border: 2px solid #314258FF !important;
-    box-sizing: border-box !important;
-    z-index: 1 !important;
-    pointer-events: none !important;
-}
-
-/* make sure actual video stays above border */
-.video-box-border > div {
-    position: relative !important;
-    z-index: 2 !important;
-}
-
-.bg-img-border {
-}
-
-.product-img-for-border {
-    z-index: 3 !important;
-    position: relative;
-}
-
-.bg-img-border .bg {
-   /* position: relative !important;*/
-}
-
-.bg-img-border .bg::before {
-    content: "" !important;
-    position: absolute !important;
-    top: -20px !important;
-   /* 30px above video */
-    left: -20px !important;
-  /* 30px left of video */
-    width: 100% !important;
-    height: 100% !important;
-    border: 2px solid #DCDEE7FF !important;
-    box-sizing: border-box !important;
-    z-index: -1 !important;
-    pointer-events: none !important;
-}
-
-/* make sure actual video stays above border */
-.bg-img-border .bg > div {
-    z-index: 2 !important;
-    position: relative !important;
-}
-
-
-/*Footer icons css*/
-/* Hide original img */
-.csocial-icons-lFkigF-3ZDN .social-icon img.social-media-icon {
+.custom-navbar a[aria-label="hidden-home"] {
     display: none !important;
 }
 
-/* Style the <a> as the new icon container */
-.csocial-icons-lFkigF-3ZDN .social-icon {
-    width: 44px !important;
-   /* size of button */
-    height: 44px !important;
-    border-radius: 100px !important;
-    background-color: #314258FF !important;
-    background-size: 46% !important;
- /* scale your new SVG */
-    margin: 5px;
- /* space between icons */
+.custom-navbar .nav-menu-desktop > li:last-of-type .menu-item-title {
+    background: #2a4733;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px 1px #a4a4a4ff;
 }
 
-
-/* Generic anchor sizing */
-.csocial-icons-lFkigF-3ZDN .social-icon {
-    display: inline-block;
-    width: 40px;
-    /* adjust size */
-    height: 40px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-/* Per-icon backgrounds */
-.csocial-icons-lFkigF-3ZDN .social-icon[aria-label="Facebook"] {
-    background-image: url("https://storage.googleapis.com/msgsndr/3MVpCX8k5ik4d0jYPqp2/media/689880a52f70e7ea776d951f.svg");
-    background-size: 30% !important;
-}
-
-.csocial-icons-lFkigF-3ZDN .social-icon[aria-label="X"] {
-    background-image: url("https://storage.googleapis.com/msgsndr/3MVpCX8k5ik4d0jYPqp2/media/689880a5dc54c178d2076fc2.svg");
-}
-
-.csocial-icons-lFkigF-3ZDN .social-icon[aria-label="Instagram"] {
-    background-image: url("https://storage.googleapis.com/msgsndr/3MVpCX8k5ik4d0jYPqp2/media/689880a52f70e79dec6d951e.svg");
-}
-
-.csocial-icons-lFkigF-3ZDN .social-icon[aria-label="Mail"] {
-    background-image: url("https://storage.googleapis.com/msgsndr/3MVpCX8k5ik4d0jYPqp2/media/689880a5076fcd75e0ceb0f4.svg");
-}
-
-
-
-.form-element div#_builder-form {
-    background-color: #ffffff00 !important;
-    border: none !important;
-    box-shadow: none !important;
-    padding-top: 10px !important;
-    padding-left: 30px !important;
-    padding-right: 30px !important;
-}
-
-#_builder-form button {
-    /*background-color: #c17b5a !important;*/
-    /*transition: background-color 0.3s ease;*/
-}
-
-#_builder-form button:hover {
-    /*background-color: #a86b4f !important;*/
-    /*transform: translateY(-2px);*/
-}
-
-
-/* footer icons css end*/
-
-
-@media (min-width: 679px) {
-  
-    .nav-menu-desktop .menu-item:last-child .menu-item-title {
-        margin-left: 90px;
-    }
-
-    .icons-colum-right-border .inner {
-        border-right-style: solid !important;
-        border-right-width: 1px !important;
-        border-right-color: #314258FF !important;
-    }
-
-    .bg-right-aligned .bg {
-        background-position: right !important;
-    }
-.disciplines-bg-img-column .bg {
-    background-position: left !important;
-}
-
-
-.footer-join-column {
-  border-left: 1px solid rgba(162, 199, 168, 1) !important;
-}
-
-/* Extra specificity to beat GHL auto-classes */
-.c-column.footer-join-column {
-  border-left: 1px solid #f77748ff !important;
-}
-
+.custom-navbar .nav-menu-desktop > li:last-of-type .menu-item-title:hover {
+    color: white !important;
+    background: #2a4733 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 678px) {
-    .shop-btns {
-        width: 100% !important;
-    }
-
-    .full-width-btns {
-        width: 100% !important;
-    }
-
-    .nav-menu-desktop .menu-item:last-child .menu-item-title {
-    }
-
     .navbar-row .inner {
         flex-direction: row !important;
-        align-items: center;
     }
 
-    div#col-dk0WW_QKkny {
-        width: 80% !important;
+    .navbar-row > .inner .c-column:first-child {
+        flex: 0 0 85% !important;
+   /* fixed 85% */
+        max-width: 85% !important;
     }
 
-    div#col-1_N8Lcegq6T {
-        width: 20% !important;
+    .navbar-row > .inner .c-column:last-child {
+        flex: 0 0 15% !important;
+   /* fixed 15% */
+        max-width: 15% !important;
     }
 
-    div#col-1_N8Lcegq6T .vertical.inner {
-        justify-content: right;
-    }
-
-    #col--9ga_FhLUUE .vertical.inner {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        justify-content: center !important;
-        gap: 12px !important;
-    }
-
-    #col--9ga_FhLUUE .vertical.inner > .c-image {
-        flex: 0 0 calc(33.333% - 12px) !important;
- /* 3 per row */
-        max-width: 120px !important;
-    }
-
-  /* Special case: from the 4th onward, allow 4 per row */
-    #col--9ga_FhLUUE .vertical.inner > .c-image:nth-child(n+4) {
-        flex: 0 0 calc(25% - 12px) !important;
+    .custom-navbar .nav-menu-mobile span::before {
+        font-size: 19px !important;
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
-  
-    #nav-menu-v2-k9KNTOxtWgt .nav-menu-mobile span::before {
-        font-size: 22px;
+@media (min-width: 768px) {
+    .hero-section .inner {
+        max-width: 100% !important;
+    }
+    .hero-bg-img {
+        height: 85vh !important;
+    }
+    .custom-navbar .nav-menu-desktop > li:last-of-type .menu-item-title {
+        margin-left: 120px;
     }
 }
 
+/* Style to add the home page link to all pages -- End*/
 
 
-/*footer */
-.wide-footer-section > .inner:first-child {
+/* Native Testimonials Section - START*/
+.custom-testimonial-section .testimonial-content button {
+    display: none;
+}
+
+.custom-testimonial-section .testimonial-content {
+    overflow: auto;
+ /* allows scrolling */
+    scrollbar-width: none;
+ /* for Firefox */
+    -ms-overflow-style: none;
+ /* for IE and Edge */
+}
+
+.custom-testimonial-section .testimonial-content::-webkit-scrollbar {
+    display: none;
+ /* for Chrome, Safari, and Opera */
+}
+/* Native Testimonials Section - END*/
+
+
+
+
+
+.logo-ticker img {
+    border: 1px solid #d0d0d0 !important;
+    border-radius: 8px !important;
+    margin-right: 20px;
+}
+
+.left-corners-radius {
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+
+.column-right-radius {
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    overflow: hidden;
+}
+
+.wide-footer-section .inner {
     max-width: 1400px !important;
 }
 
-.wide-footer-row > .inner:first-child {
+.wide-footer-row .inner {
     max-width: 1400px !important;
 }
-
-.footer-parent-row > .inner:first-child {
-    flex-direction: column;
-}
-
-.child-footer-col1 {
-    width: 100% !important;
-}
-
-.child-footer-col2 {
-    width: 100% !important;
-}
-
-.wide-footer-section > .inner:first-child {
-    width: 100% !important;
-    max-width: 100% !important;
-}
-
-.footer-border-left {
-    border-left: 1px solid #f77748ff;
-}
-/*footer end */
-

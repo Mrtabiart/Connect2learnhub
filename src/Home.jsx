@@ -151,18 +151,6 @@ function Home() {
             <h3>Webinars</h3>
             <p>Live interactive sessions with industry experts and thought leaders</p>
           </div>
-          <div className="service-card loading">
-            <div className="service-icon">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <polyline points="14,2 14,8 20,8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3>Certification</h3>
-            <p>Industry-recognized certificates to boost your career prospects</p>
-          </div>
         </div>
       </section>
 
@@ -192,11 +180,6 @@ function Home() {
             <img src="https://images.pexels.com/photos/3184394/pexels-photo-3184394.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dr. James Wilson" />
             <h3>Ms. Fauzia Raazia</h3>
             <p className="team-role">Senior Academic Advisor</p>
-          </div>
-          <div className="team-card loading">
-            <img   src={sadafimg} alt="Emily Parker" />
-            <h3>Ms. Sadaf Mansoor</h3>
-            <p className="team-role">Senior Financial Advisor</p>
           </div>
           <div className="team-card loading">
             <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dr. Robert Kim" />
