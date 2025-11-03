@@ -1,0 +1,361 @@
+.webinars-page {
+  min-height: 100vh;
+  background: #F8F9FB;
+}
+
+.webinars-container {
+  padding: 120px 7rem 5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.webinars-header {
+  margin-bottom: 3rem;
+}
+
+.webinars-header h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.75rem;
+}
+
+.webinars-header p {
+  font-size: 1.05rem;
+  color: #666;
+}
+
+.webinars-search-filters {
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.search-bar-webinar {
+  position: relative;
+  max-width: 600px;
+}
+
+.search-bar-webinar i {
+  position: absolute;
+  left: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 1rem;
+}
+
+.search-bar-webinar input {
+  width: 100%;
+  padding: 0.875rem 1.25rem 0.875rem 3rem;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.search-bar-webinar input:focus {
+  outline: none;
+  border-color: #0066FF;
+  box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.1);
+}
+
+.category-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.category-filter label {
+  font-size: 0.95rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.category-filter select {
+  padding: 0.75rem 2.5rem 0.75rem 1rem;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: white;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23666' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+}
+
+.quick-filters {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.625rem 1.25rem;
+  border: 1px solid #E0E0E0;
+  background: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #666;
+}
+
+.filter-btn:hover {
+  border-color: #0066FF;
+  color: #0066FF;
+}
+
+.webinars-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #E0E0E0;
+}
+
+.tab-btn {
+  padding: 1rem 2rem;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #666;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  bottom: -2px;
+}
+
+.tab-btn.active {
+  color: #0066FF;
+  border-bottom-color: #0066FF;
+}
+
+.tab-btn:hover:not(.active) {
+  color: #0066FF;
+}
+
+.webinars-table-container {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 4rem;
+}
+
+.webinars-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.webinars-table thead {
+  background: #F8F9FB;
+}
+
+.webinars-table th {
+  padding: 1.25rem 1.5rem;
+  text-align: left;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #666;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.webinars-table td {
+  padding: 1.5rem 1.5rem;
+  border-top: 1px solid #F0F0F0;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+
+.webinars-table td strong {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.register-btn {
+  padding: 0.625rem 1.5rem;
+  background: #0066FF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+  background: #0052CC;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 102, 255, 0.3);
+}
+
+.workshops-section {
+  margin-bottom: 4rem;
+}
+
+.workshops-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.75rem;
+}
+
+.workshops-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.workshops-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2rem;
+}
+
+.workshop-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.workshop-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.workshop-card h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.workshop-card p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.learn-more-btn {
+  padding: 0.75rem 2rem;
+  background: #E8F0FF;
+  color: #0066FF;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.learn-more-btn:hover {
+  background: #0066FF;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+
+.page-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  background: white;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+.page-btn.active {
+  background: #0066FF;
+  color: white;
+  border-color: #0066FF;
+}
+
+.page-btn:hover:not(.active) {
+  border-color: #0066FF;
+  color: #0066FF;
+}
+
+.page-dots {
+  color: #666;
+  padding: 0 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .webinars-container {
+    padding: 120px 5rem 5rem;
+  }
+
+  .workshops-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .webinars-container {
+    padding: 100px 2rem 3rem;
+  }
+
+  .webinars-header h1 {
+    font-size: 2rem;
+  }
+
+  .webinars-search-filters {
+    gap: 1rem;
+  }
+
+  .search-bar-webinar {
+    max-width: 100%;
+  }
+
+  .webinars-table-container {
+    overflow-x: auto;
+  }
+
+  .webinars-table {
+    min-width: 650px;
+  }
+
+  .workshops-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .workshop-card {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .webinars-container {
+    padding: 100px 1rem 2rem;
+  }
+
+  .tab-btn {
+    padding: 0.875rem 1.25rem;
+    font-size: 0.9rem;
+  }
+}
